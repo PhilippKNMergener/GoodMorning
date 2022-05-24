@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D76A90CA281F088B00B662EB /* GoodMorningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76A90C9281F088B00B662EB /* GoodMorningApp.swift */; };
-		D76A90CC281F088B00B662EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76A90CB281F088B00B662EB /* ContentView.swift */; };
-		D76A90CE281F088E00B662EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76A90CD281F088E00B662EB /* Assets.xcassets */; };
-		D76A90D1281F088E00B662EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D76A90D0281F088E00B662EB /* Preview Assets.xcassets */; };
+		D70EF3A0283D88D300E44785 /* GoodMorningV1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EF39F283D88D300E44785 /* GoodMorningV1App.swift */; };
+		D70EF3A2283D88D300E44785 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EF3A1283D88D300E44785 /* ContentView.swift */; };
+		D70EF3A4283D88D400E44785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70EF3A3283D88D400E44785 /* Assets.xcassets */; };
+		D70EF3A7283D88D400E44785 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70EF3A6283D88D400E44785 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D76A90C6281F088B00B662EB /* GoodMorning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodMorning.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D76A90C9281F088B00B662EB /* GoodMorningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMorningApp.swift; sourceTree = "<group>"; };
-		D76A90CB281F088B00B662EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D76A90CD281F088E00B662EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D76A90D0281F088E00B662EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D70EF39C283D88D300E44785 /* GoodMorningV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodMorningV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70EF39F283D88D300E44785 /* GoodMorningV1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMorningV1App.swift; sourceTree = "<group>"; };
+		D70EF3A1283D88D300E44785 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D70EF3A3283D88D400E44785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D70EF3A6283D88D400E44785 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D76A90C3281F088B00B662EB /* Frameworks */ = {
+		D70EF399283D88D300E44785 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D76A90BD281F088B00B662EB = {
+		D70EF393283D88D300E44785 = {
 			isa = PBXGroup;
 			children = (
-				D76A90C8281F088B00B662EB /* GoodMorning */,
-				D76A90C7281F088B00B662EB /* Products */,
+				D70EF39E283D88D300E44785 /* GoodMorningV1 */,
+				D70EF39D283D88D300E44785 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D76A90C7281F088B00B662EB /* Products */ = {
+		D70EF39D283D88D300E44785 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D76A90C6281F088B00B662EB /* GoodMorning.app */,
+				D70EF39C283D88D300E44785 /* GoodMorningV1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D76A90C8281F088B00B662EB /* GoodMorning */ = {
+		D70EF39E283D88D300E44785 /* GoodMorningV1 */ = {
 			isa = PBXGroup;
 			children = (
-				D76A90C9281F088B00B662EB /* GoodMorningApp.swift */,
-				D76A90CB281F088B00B662EB /* ContentView.swift */,
-				D76A90CD281F088E00B662EB /* Assets.xcassets */,
-				D76A90CF281F088E00B662EB /* Preview Content */,
+				D70EF39F283D88D300E44785 /* GoodMorningV1App.swift */,
+				D70EF3A1283D88D300E44785 /* ContentView.swift */,
+				D70EF3A3283D88D400E44785 /* Assets.xcassets */,
+				D70EF3A5283D88D400E44785 /* Preview Content */,
 			);
-			path = GoodMorning;
+			path = GoodMorningV1;
 			sourceTree = "<group>";
 		};
-		D76A90CF281F088E00B662EB /* Preview Content */ = {
+		D70EF3A5283D88D400E44785 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D76A90D0281F088E00B662EB /* Preview Assets.xcassets */,
+				D70EF3A6283D88D400E44785 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D76A90C5281F088B00B662EB /* GoodMorning */ = {
+		D70EF39B283D88D300E44785 /* GoodMorningV1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D76A90D4281F088E00B662EB /* Build configuration list for PBXNativeTarget "GoodMorning" */;
+			buildConfigurationList = D70EF3AA283D88D400E44785 /* Build configuration list for PBXNativeTarget "GoodMorningV1" */;
 			buildPhases = (
-				D76A90C2281F088B00B662EB /* Sources */,
-				D76A90C3281F088B00B662EB /* Frameworks */,
-				D76A90C4281F088B00B662EB /* Resources */,
+				D70EF398283D88D300E44785 /* Sources */,
+				D70EF399283D88D300E44785 /* Frameworks */,
+				D70EF39A283D88D300E44785 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GoodMorning;
-			productName = GoodMorning;
-			productReference = D76A90C6281F088B00B662EB /* GoodMorning.app */;
+			name = GoodMorningV1;
+			productName = GoodMorningV1;
+			productReference = D70EF39C283D88D300E44785 /* GoodMorningV1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D76A90BE281F088B00B662EB /* Project object */ = {
+		D70EF394283D88D300E44785 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					D76A90C5281F088B00B662EB = {
-						CreatedOnToolsVersion = 13.3;
+					D70EF39B283D88D300E44785 = {
+						CreatedOnToolsVersion = 13.4;
 					};
 				};
 			};
-			buildConfigurationList = D76A90C1281F088B00B662EB /* Build configuration list for PBXProject "GoodMorning" */;
+			buildConfigurationList = D70EF397283D88D300E44785 /* Build configuration list for PBXProject "GoodMorningV1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = D76A90BD281F088B00B662EB;
-			productRefGroup = D76A90C7281F088B00B662EB /* Products */;
+			mainGroup = D70EF393283D88D300E44785;
+			productRefGroup = D70EF39D283D88D300E44785 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D76A90C5281F088B00B662EB /* GoodMorning */,
+				D70EF39B283D88D300E44785 /* GoodMorningV1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D76A90C4281F088B00B662EB /* Resources */ = {
+		D70EF39A283D88D300E44785 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D76A90D1281F088E00B662EB /* Preview Assets.xcassets in Resources */,
-				D76A90CE281F088E00B662EB /* Assets.xcassets in Resources */,
+				D70EF3A7283D88D400E44785 /* Preview Assets.xcassets in Resources */,
+				D70EF3A4283D88D400E44785 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D76A90C2281F088B00B662EB /* Sources */ = {
+		D70EF398283D88D300E44785 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D76A90CC281F088B00B662EB /* ContentView.swift in Sources */,
-				D76A90CA281F088B00B662EB /* GoodMorningApp.swift in Sources */,
+				D70EF3A2283D88D300E44785 /* ContentView.swift in Sources */,
+				D70EF3A0283D88D300E44785 /* GoodMorningV1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D76A90D2281F088E00B662EB /* Debug */ = {
+		D70EF3A8283D88D400E44785 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -195,7 +195,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		D76A90D3281F088E00B662EB /* Release */ = {
+		D70EF3A9283D88D400E44785 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +249,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -259,14 +259,14 @@
 			};
 			name = Release;
 		};
-		D76A90D5281F088E00B662EB /* Debug */ = {
+		D70EF3AB283D88D400E44785 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GoodMorning/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GoodMorningV1/Preview Content\"";
 				DEVELOPMENT_TEAM = R66U9C3L4Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +280,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.PhilippMergener.GoodMorning;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhilippMergener.GoodMorningV1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -288,14 +288,14 @@
 			};
 			name = Debug;
 		};
-		D76A90D6281F088E00B662EB /* Release */ = {
+		D70EF3AC283D88D400E44785 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GoodMorning/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GoodMorningV1/Preview Content\"";
 				DEVELOPMENT_TEAM = R66U9C3L4Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.PhilippMergener.GoodMorning;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PhilippMergener.GoodMorningV1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D76A90C1281F088B00B662EB /* Build configuration list for PBXProject "GoodMorning" */ = {
+		D70EF397283D88D300E44785 /* Build configuration list for PBXProject "GoodMorningV1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D76A90D2281F088E00B662EB /* Debug */,
-				D76A90D3281F088E00B662EB /* Release */,
+				D70EF3A8283D88D400E44785 /* Debug */,
+				D70EF3A9283D88D400E44785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D76A90D4281F088E00B662EB /* Build configuration list for PBXNativeTarget "GoodMorning" */ = {
+		D70EF3AA283D88D400E44785 /* Build configuration list for PBXNativeTarget "GoodMorningV1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D76A90D5281F088E00B662EB /* Debug */,
-				D76A90D6281F088E00B662EB /* Release */,
+				D70EF3AB283D88D400E44785 /* Debug */,
+				D70EF3AC283D88D400E44785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D76A90BE281F088B00B662EB /* Project object */;
+	rootObject = D70EF394283D88D300E44785 /* Project object */;
 }
