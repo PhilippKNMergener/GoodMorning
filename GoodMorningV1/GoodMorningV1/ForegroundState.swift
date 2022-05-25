@@ -14,6 +14,23 @@ class ForegroundState: ObservableObject {
     init() {
         self.currentState = .Start
     }
+    
+    public func updateState(_ state: fgState? = nil) {
+        if let state = state {
+            currentState = state
+        } else {
+            switch currentState {
+                case .Start:
+                    currentState = .Transition
+                case .Transition:
+                    currentState = .Prompt
+                case .Prompt:
+                    currentState = .Tasks
+                case .Tasks:
+                    currentState = .Start
+            }
+        }
+    }
 }
 
 enum fgState {

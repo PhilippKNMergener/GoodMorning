@@ -16,6 +16,10 @@ struct ContentView: View {
             BackgroundView(viewState: BGState)
             ForegroundView(viewState: FGState)
         }
+        .onTapGesture {
+            BGState.updateState()
+            
+        }
     }
 }
 

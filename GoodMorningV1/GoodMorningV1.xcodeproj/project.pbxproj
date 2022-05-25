@@ -16,6 +16,7 @@
 		D70EF3B4283D9CBF00E44785 /* ForegroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EF3B3283D9CBF00E44785 /* ForegroundView.swift */; };
 		D70EF3B6283D9CE100E44785 /* ForegroundState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EF3B5283D9CE100E44785 /* ForegroundState.swift */; };
 		D70EF3B8283D9D9200E44785 /* TapToContinue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EF3B7283D9D9200E44785 /* TapToContinue.swift */; };
+		D70EF3BA283DBD6600E44785 /* PromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70EF3B9283DBD6600E44785 /* PromptView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		D70EF3B3283D9CBF00E44785 /* ForegroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundView.swift; sourceTree = "<group>"; };
 		D70EF3B5283D9CE100E44785 /* ForegroundState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForegroundState.swift; sourceTree = "<group>"; };
 		D70EF3B7283D9D9200E44785 /* TapToContinue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapToContinue.swift; sourceTree = "<group>"; };
+		D70EF3B9283DBD6600E44785 /* PromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +65,10 @@
 			children = (
 				D70EF3AF283D892B00E44785 /* BackgroundView.swift */,
 				D70EF3B1283D8C3E00E44785 /* BackgroundState.swift */,
-				D70EF3B3283D9CBF00E44785 /* ForegroundView.swift */,
-				D70EF3B7283D9D9200E44785 /* TapToContinue.swift */,
 				D70EF3B5283D9CE100E44785 /* ForegroundState.swift */,
+				D70EF3B3283D9CBF00E44785 /* ForegroundView.swift */,
+				D70EF3B9283DBD6600E44785 /* PromptView.swift */,
+				D70EF3B7283D9D9200E44785 /* TapToContinue.swift */,
 				D70EF39F283D88D300E44785 /* GoodMorningV1App.swift */,
 				D70EF3A1283D88D300E44785 /* ContentView.swift */,
 				D70EF3A3283D88D400E44785 /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70EF3BA283DBD6600E44785 /* PromptView.swift in Sources */,
 				D70EF3B4283D9CBF00E44785 /* ForegroundView.swift in Sources */,
 				D70EF3B0283D892B00E44785 /* BackgroundView.swift in Sources */,
 				D70EF3B6283D9CE100E44785 /* ForegroundState.swift in Sources */,

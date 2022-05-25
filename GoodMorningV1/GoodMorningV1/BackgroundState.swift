@@ -21,7 +21,15 @@ class BackgroundState: ObservableObject {
         self.colors = colors
     }
     
-    public
+    public func updateState(_ state: bgStates? = nil) {
+        if let state = state {
+            currentState = state
+        } else {
+            if currentState == .Breathing {
+                currentState = .FullScreen
+            }
+        }
+    }
 }
 
 enum bgStates {

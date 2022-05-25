@@ -14,10 +14,14 @@ struct ForegroundView: View {
             switch viewState.currentState {
                 case .Start:
                     Text("GoodMorning")
+                        .bold()
+                        .font(.title)
+                        .foregroundStyle(.regularMaterial)
+                        .transition(.opacity)
                 case .Prompt:
-                    Text("GoodMorning")
+                    PromptView()
                 case .Transition:
-                    Text("GoodMorning")
+                    Text("")
                 case .Tasks:
                     Text("GoodMorning")
             }
