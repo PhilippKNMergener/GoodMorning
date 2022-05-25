@@ -7,10 +7,15 @@
 
 import SwiftUI
 
+// ContentView is mainly just for overlaying the background and foreground views
 struct ContentView: View {
+    @StateObject var BGState = BackgroundState()
+    @StateObject var FGState = ForegroundState()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            BackgroundView(viewState: BGState)
+            ForegroundView(viewState: FGState)
+        }
     }
 }
 
