@@ -18,7 +18,7 @@ struct ContentView: View {
         }
         .onTapGesture {
             BGState.updateState()
-            
+            FGState.updateState()
         }
     }
 }
